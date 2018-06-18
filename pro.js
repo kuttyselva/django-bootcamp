@@ -18,3 +18,38 @@ function time(str,n)
   for (var i = 0; i < n; i++) {
      console.log(str * n);
 }}
+function lucky(a,b,c)
+{
+  if(a==13)
+  {
+    return 0;
+  }
+  if(b==13)
+  {
+    return a;
+  }
+  if(c==13)
+  {
+    return a+b;
+  }
+  else{
+    return a+b+c;
+  }
+}
+function police(speed,bd)
+{
+  if (bd) {
+    speed-=5;
+
+  }
+  if(speed<=60){
+  return 0;
+}
+else if(60<speed<=80){
+  return 1;
+}
+
+else{
+  return 2;}
+
+}
