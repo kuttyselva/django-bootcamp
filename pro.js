@@ -7,11 +7,5 @@
 //{console.log("you are a spy");}
 
 function sleepin(weekday,vacation) {
-  if(weekday=="true")
-  {
-    console.log("yfalse");
-  }
-  else {
-    console.log("true");
-  }
+return(!weekday || vacation)
 }
