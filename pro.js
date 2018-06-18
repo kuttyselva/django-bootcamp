@@ -13,3 +13,8 @@ function monkey(asmile,bsmile)
 {
   return(asmile && bsmile) || (!asmile && !bsmile)
 }
+function time(str,n)
+{
+  for (var i = 0; i < n; i++) {
+     console.log(str * n);
+}}
