@@ -9,3 +9,7 @@
 function sleepin(weekday,vacation) {
 return(!weekday || vacation)
 }
+function monkey(asmile,bsmile)
+{
+  return(asmile && bsmile) || (!asmile && !bsmile)
+}
