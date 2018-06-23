@@ -53,3 +53,7 @@ else{
   return 2;}
 
 }
+
+
+//arrays..........................................
+ var country=["india","usa","uk"]
