@@ -57,3 +57,5 @@ else{
 
 //arrays..........................................
  var country=["india","usa","uk"]
+ var out=country.pop()
+ country.push("uk")
