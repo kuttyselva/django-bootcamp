@@ -59,3 +59,13 @@ else{
  var country=["india","usa","uk"]
  var out=country.pop()
  country.push("uk")
+
+ for (letter of country) {
+  console.log(letter);
+ }
+ country.forEach(alert);
+ function awe(name)
+ {
+   console.log(name+" is awesome");
+ }
+ country.forEach(awe)
